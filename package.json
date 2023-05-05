@@ -1,0 +1,19 @@
+{
+  "name": "rules-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "json2csv": "^6.0.0-alpha.2",
+    "jsonata": "^2.0.3"
+  },
+  "type": "module"
+}

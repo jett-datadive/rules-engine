@@ -1,0 +1,15 @@
+/* this rule adds a new property to the object returned */
+
+(
+    /* this is a declaration for an external function which we will bind at runtime */
+    $add(a, b);
+
+    $merge([$,
+            {
+                'newproperty': 'this property was added to the output',
+                'volumePlus100': $add($number($.'Search Volume'), 100)
+            }
+        ]
+    )
+
+)
